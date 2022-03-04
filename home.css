@@ -1,0 +1,54 @@
+#header {
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+body {
+    background-size: cover; 
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+#navagation {
+    width: 20%;
+}
+
+#main {
+    
+}
+
+#content {
+    font-size: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: azure;
+}
+
+#autor {
+    text-align: center;
+    font-size: 25px;
+    color: greenyellow;
+}
+
+a {
+    padding: 7px;
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+}
+
+p {
+    padding: 7px;
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}

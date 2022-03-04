@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <Title>Login</Title>
+    <meta charset="utf-8">
+    <link href="login.css" rel="stylesheet" type="text/css">
+</head>
+<script>
+function validateForm() {
+
+var user =  document.getElementById("user").value;
+ 
+if(user == "") {
+ 
+//if(user.length == 0) {
+alert("Nome Obrigatório!");
+return false;
+}
+ 
+var password = document.getElementById("password").value;
+
+if(password == "") {
+ 
+//if(password.length == 0) {
+alert("Password Obrigatória!");
+return false;
+}
+ 
+return true;
+}   
+</script>
+<body background="cascais.png">
+    <form action="login.php" method="post" onsubmit="return validateForm()">
+        <div class="box">
+            <label>Username</label>
+            <input type="text" placeholder="Enter Username" name="user"/>
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password" name="password">
+            <button type="submit" value="Login">Login</button>
+        </div>
+    </form>
+</body>
+</html>
